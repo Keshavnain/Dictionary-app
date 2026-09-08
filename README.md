@@ -28,7 +28,7 @@ The app allows users to search for words and view their meanings along with diff
 
 ## 📸 Screenshot
 
-![Dictionary App Screenshot](Background_Dit.png)
+![Dictionary App Screenshot](Dictionary_forGITHUB.png)
 
 ## 🎯 What I Learned
 
