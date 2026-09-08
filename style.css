@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    text-align: center;
+    background-image: url(Background_Dict.png);
+}
+.heading{
+    margin-top: 14rem;
+}
+
+div{
+    padding: 15px;
+}
+.search-box{
+    position: relative;
+    width:500px;
+    margin: 0 auto;
+}
+
+.search-box input{
+     width:100%; /*  400px and 1 rem = 16px*/
+     height: 40px;
+     padding: 0 75px 0 25px;
+     border-radius: 20px;
+     border: none;
+     box-sizing: border-box;
+     font-size: 18px;
+     transition: background-color 1s ease;
+}
+ .search-box button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    width: 50px;
+    height: 40px;
+
+    border: none;
+    color: white;
+    background-color: #1769d1;
+
+    font-size: 25px;
+    cursor: pointer;
+
+    border-radius: 0 20px 20px 0;
+}
+h1{
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+h1:hover{
+     font-size: 35px;
+     
+}
+.search-box button:hover{
+    font-size: 30px;
+    transition: 0.3s ease-in;
+}
+.search-box input:hover{
+    
+    background-color:#1769d1;
+}
+.search-box input:hover::placeholder{
+    color:white;
+    transition: color 0.5s ease;
+}
+#result{
+    font-size: 20px;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap:8px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.options button{
+    padding: 7px 14px;
+    border: 1px solid white;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.options button:hover {
+    background: white;
+    color: #2468d7;
+}
+
+.result-card{
+    width: 90%;
+    max-width: 550px;
+    margin: 25px auto 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 1);
+}
+.result-card h2{
+    margin: 0 0 5px;
+    font-size: 28px;
+}
+.result-card .part{
+    color: #2468d7;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.result-card p{
+    line-height: 1.6;
+}
